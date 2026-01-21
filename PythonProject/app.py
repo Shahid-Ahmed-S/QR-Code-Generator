@@ -12,7 +12,7 @@ app = Flask(__name__)
 QR_FOLDER = "static/qrcodes"
 os.makedirs(QR_FOLDER, exist_ok=True)
 
-DB_NAME = "database.db"
+DB_NAME = "/tmp/database.db"
 
 
 def get_db():
